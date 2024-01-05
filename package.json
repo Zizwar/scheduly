@@ -1,0 +1,34 @@
+{
+  "name": "scheduly",
+  "version": "1.0.0",
+  "description": "scheduly is a simple JavaScript library for scheduling function executions based on specific timings and various time zones.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zizwar/scheduly.git"
+  },
+  "keywords": [
+    "schedule",
+    "timer",
+    "scheduling",
+    "cron",
+    "task scheduler",
+    "timezone",
+    "time management",
+    "interval",
+    "recurring tasks",
+    "job scheduler"
+  ],
+  "author": "Brahim BIDI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zizwar/scheduly/issues"
+  },
+  "homepage": "https://github.com/Zizwar/scheduly#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.44"
+  }
+}
