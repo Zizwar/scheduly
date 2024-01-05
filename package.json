@@ -1,6 +1,6 @@
 {
   "name": "scheduly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "scheduly is a simple JavaScript library for scheduling function executions based on specific timings and various time zones.",
   "main": "main.js",
   "scripts": {

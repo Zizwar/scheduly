@@ -43,7 +43,7 @@ schedule.stop();
 ```js
 const gmtSchedule = new ScheduleFunction("2h30m", "GMT");
 gmtSchedule.schedule(() => {
-    console.log(This function runs every 2 hours and 30 minutes in GMT.);
+    console.log("This function runs every 2 hours and 30 minutes in GMT.");
 });
 ```
 
@@ -51,14 +51,14 @@ gmtSchedule.schedule(() => {
 ```js
 const nySchedule = new ScheduleFunction("1h", "America/New_York");
 nySchedule.schedule(() => {
-    console.log(This function runs every hour in New York time.);
+    console.log("This function runs every hour in New York time."");
 });
 ```
 ### Scheduling a Function in Tokyo Time:
 ```js
 const tokyoSchedule = new ScheduleFunction("3h45m", "Asia/Tokyo");
 tokyoSchedule.schedule(() => {
-    console.log(This function runs every 3 hours and 45 minutes in Tokyo time.);
+    console.log("This function runs every 3 hours and 45 minutes in Tokyo time."");
 });
 ```
 
